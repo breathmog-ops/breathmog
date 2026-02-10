@@ -27,18 +27,13 @@
   <!-- Header -->
   <header class="sticky top-0 z-40 border-b border-black/5 bg-[#F6F3EE]/80 backdrop-blur">
     <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between py-4">
+      <div class="flex items-center justify-between py-6">
         <a href="#" class="flex items-center gap-3">
-<div class="flex items-baseline gap-3 select-none">
-  <div class="relative font-serif tracking-tight text-[#6B6C54]">
-    <span class="text-3xl sm:text-4xl md:text-5xl leading-none">MOG</span>
-    <span class="absolute -top-3 right-8 sm:right-10 md:right-12">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-12 text-[#6B6C54]" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 3s-1 6-6 11-11 6-11 6 1-6 6-11 11-6 11-6Z" /><path d="M11 14c-2 2-3 5-3 7" /></svg>
-    </span>
-  </div>
-  <div class="text-xs sm:text-sm tracking-[0.25em] uppercase text-[#6B6C54]/80">My Own Getaway</div>
-</div>
-</a>
+          <div class="relative h-14 w-[220px] overflow-visible">
+            <img src="images/logo-transparent.png" alt="MOG logo" class="absolute left-0 top-1/2 -translate-y-1/2 w-auto h-auto max-h-none scale-150 object-contain" />
+          </div>
+          <span class="sr-only">MOG — My Own Getaway</span>
+        </a>
 
         <nav class="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
           <a class="hover:text-black" href="#how">How it works</a>
@@ -112,7 +107,7 @@
 
         <div class="relative">
           <div class="aspect-[4/5] overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-black/5">
-            <img src="https://images.unsplash.com/photo-1526401485004-2aa6d9f4b5fd?auto=format&amp;fit=crop&amp;w=1600&amp;q=80" alt="Meditation corner with warm lamp, plant, candles"
+            <img src="images/hero.jpg" srcset="images/hero@2x.jpg 2x, images/hero.jpg 1x" alt="Meditation corner with warm lamp, plant, candles"
               class="h-full w-full object-cover"
               onerror="this.onerror=null;this.src=window.MOG_FALLBACK_IMG;" />
           </div>
